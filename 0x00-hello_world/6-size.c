@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - size of various types on the computer it is compiled
+ * main - size of various types 
+ * on the computer it is compiled
  * Return: 0 
  */
 int main(void)
