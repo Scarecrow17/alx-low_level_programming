@@ -8,3 +8,6 @@
 7: print the lowercase alphabet in reverse then new line
 8: print numbers of base 16 in lowercase then new line
 9: print possible combinations of single-digit numbers
+10: print possible different combinations of two digits
+11: print possible different combinations of three digits
+12: print possible combinations of two two-digit numbers
