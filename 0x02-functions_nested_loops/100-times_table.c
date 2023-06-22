@@ -19,7 +19,7 @@ void print_times_table(int n)
 				_putchar(',');
 				_putchar(' ');
 
-				prod = i * j;
+				x = i * j;
 
 				if (x <= 99)
 					_putchar(' ');
