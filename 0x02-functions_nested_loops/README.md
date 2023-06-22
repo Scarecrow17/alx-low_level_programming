@@ -10,3 +10,8 @@
 9: print 9 times table from 0
 10: add two integers and returns the result
 11: print natural numbers from n to 98 then new line
+12: print n times table from 0
+13: compute & print sum of all the multiples of 3 or 5 below 1024
+14: print first 50 Fibonacci numbers from 1 & 2
+15: find & print sum of the even-valued terms then new line
+16: print first 98 Fibonacci numbers from 1 & 2
