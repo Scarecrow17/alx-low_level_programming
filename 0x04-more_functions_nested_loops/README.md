@@ -9,3 +9,5 @@
 8: print a square then new line
 9: print numbers from 1 to 100 but print fizz for 3x and buzz for 5x
 10: print a triangle then new line
+11: find & print largest prime factor
+12: print an integer
