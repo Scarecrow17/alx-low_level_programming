@@ -9,7 +9,7 @@ int main(void)
 {
 	unsigned long int x, n = 612852475143;
 
-	for (x = 3; x < 782849; x = i + 2)
+	for (x = 3; x < 782849; x = x + 2)
 	{
 		while ((n % x == 0) && (n != x))
 			n = n / x;
