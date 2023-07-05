@@ -7,7 +7,6 @@ int actual_prime(int n, int i);
  * @n: number to check
  * Return: 1 if prime, otherwise 0
  */
-
 int is_prime_number(int n)
 {
 	if (n <= 1)
@@ -19,9 +18,8 @@ int is_prime_number(int n)
  * actual_prime - calculate if a number is prime
  * @n: num to check if prime
  * @i: iterator
- * Return: 1 if prime, 0 otherwise 
+ * Return: 1 if prime, 0 otherwise
  */
-
 int actual_prime(int n, int i)
 {
 	if (i == 1)
