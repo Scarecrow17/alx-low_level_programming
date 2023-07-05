@@ -15,8 +15,8 @@ int _strlen_recursion(char *s)
 /**
  * pal_checker - check if string is palindromic
  * @s: string to check
- * @i: iterator
- * @j: int
+ * @p: iterator
+ * @x: int
  * Return: 1 if palindromic, otherwise  0
  */
 int pal_checker(char *s, int p, int x)
