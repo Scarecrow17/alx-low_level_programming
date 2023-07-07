@@ -9,7 +9,7 @@
  */
 int main(int argc, char **argv)
 {
-	int p, n, value = 0;
+	int p, x, value = 0;
 	char *flag;
 
 	if (argc < 2)
