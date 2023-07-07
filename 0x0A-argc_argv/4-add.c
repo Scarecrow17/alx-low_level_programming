@@ -7,7 +7,6 @@
  * @argv: arguments array
  * Return: 0 or 1(success)
  */
-
 int main(int argc, char **argv)
 {
 	int p, n, value = 0;
