@@ -11,7 +11,7 @@
 char *argstostr(int ac, char **av)
 {
 	int p, q, r, len;
-	char *string;
+	char *arg;
 
 	len = 0;
 	r = 0;
@@ -29,8 +29,8 @@ char *argstostr(int ac, char **av)
 		len++;
 		p++;
 	}
-	string = malloc((sizeof(char) * len) + 1);
-	if (string == NULL)
+	arg = malloc((sizeof(char) * len) + 1);
+	if (arg == NULL)
 		return (NULL);
 	p = 0;
 	while (p < ac)
@@ -38,14 +38,14 @@ char *argstostr(int ac, char **av)
 		q = 0;
 		while (av[p][q])
 		{
-			string[r] = av[p][q];
+			arg[r] = av[p][q];
 			q++;
 			r++;
 		}
-		string[r] = '\n';
+		arg[r] = '\n';
 		r++;
 		p++;
 	}
-	string[p] = '\0';
-	return (string);
+	arg[p] = '\0';
+	return (arg);
 }
