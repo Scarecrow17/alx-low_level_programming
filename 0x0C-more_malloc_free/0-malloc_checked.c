@@ -6,7 +6,6 @@
  * @b: byte number allocated
  * Return: allocated memory pointer
  */
-
 void *malloc_checked(unsigned int b)
 {
 	void *x;
