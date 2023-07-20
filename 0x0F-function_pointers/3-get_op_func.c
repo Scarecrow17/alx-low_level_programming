@@ -1,4 +1,6 @@
 #include "3-calc.h"
+#include <stdlib.h>
+#include <string.h>
 
 /**
  * get_op_func - choose correct function to make operation
@@ -9,23 +11,22 @@
 int (*get_op_func(char *s))(int, int)
 {
 	op_t ops[] = {
-		{"+", op_add},
-		{"-", op_sub},
-		{"*", op_mul},
-		{"/", op_div},
-		{"%", op_mod},
-		{NULL, NULL}
+	{ "+", op_add },
+	{ "-", op_sub },
+	{ "*", op_mul },
+	{ "/", op_div },
+	{ "%", op_mod },
+	{ NULL, NULL }
 	};
-	int p;
+	int p = 0;
 
-	p = 0;
-
-	while (ops[p].op)
+	while (p < 5)
 	{
-		if (strcmp(ops[p].op, s) == 0)
+		if (strcmp(s, ops[p].op) == 0)
 			return (ops[p].f);
+
 		p++;
 	}
 
-	return (NULL);
+	return (0);
 }
