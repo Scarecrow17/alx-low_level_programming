@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * clear_bit - set the value of bit given index
  * @n: number to p
