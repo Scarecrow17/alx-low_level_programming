@@ -1,8 +1,8 @@
 #include "lists.h"
 
 /**
- * delete_dnodeint_at_index - deletes the 
- * @head: head 
+ * delete_dnodeint_at_index - deletes the
+ * @head: head
  * @index: index
  * Return: 1 ifit failed
  */
