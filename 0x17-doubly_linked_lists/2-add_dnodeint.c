@@ -2,9 +2,9 @@
 
 /**
  * add_dnodeint - adds e beginning
- * @head: head 
- * @n: value 
- * Return:  address
+ * @head: head
+ * @n: value
+ * Return: address
  */
 dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
