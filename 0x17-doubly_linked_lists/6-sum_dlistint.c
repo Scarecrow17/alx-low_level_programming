@@ -2,8 +2,8 @@
 
 /**
  * sum_dlistint - returns t
- * @head: head 
- * Return: sum 
+ * @head: head
+ * Return: sum
  */
 int sum_dlistint(dlistint_t *head)
 {
