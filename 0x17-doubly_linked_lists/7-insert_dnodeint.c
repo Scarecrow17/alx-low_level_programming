@@ -1,9 +1,9 @@
 #include "lists.h"
 
 /**
- * insert_dnodeint_at_index - inserts 
+ * insert_dnodeint_at_index - inserts
  * @h: head t
- * @idx: index 
+ * @idx: index
  * @n: value node
  * Return:  address of f it failed
  */
